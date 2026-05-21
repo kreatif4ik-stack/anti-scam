@@ -60,7 +60,7 @@ export default function ScenarioQuiz({ scenario }: { scenario: Scenario }) {
             <div className="inline-flex items-center gap-2 bg-white/5 rounded-2xl px-4 py-2 mb-4">
               <span className="text-2xl">{redCount <= 1 ? '🛡️' : redCount <= 3 ? '⚠️' : '🚨'}</span>
               <span className="text-3xl font-bold">{redCount}</span>
-              <span className="text-white/60">/ {totalSteps} красных</span>
+              <span className="text-white/60">/ {totalSteps} красных флагов</span>
             </div>
             <h2 className="text-xl font-bold text-foreground mb-2">{verdict?.title}</h2>
             <p className="text-white/60 leading-relaxed">{verdict?.text}</p>
@@ -141,11 +141,7 @@ export default function ScenarioQuiz({ scenario }: { scenario: Scenario }) {
               <button
                 key={opt.color}
                 onClick={() => handleAnswer(opt.color as 'red' | 'green', opt.text)}
-                className={`flex-1 py-4 px-6 rounded-2xl font-medium text-lg transition-all active:scale-[0.98] ${
-                  opt.color === 'red'
-                    ? 'bg-danger/80 hover:bg-danger text-white'
-                    : 'bg-safe/80 hover:bg-safe text-white'
-                }`}
+                className="flex-1 py-4 px-6 rounded-2xl font-medium text-lg transition-all active:scale-[0.98] bg-white/10 hover:bg-white/15 text-white"
               >
                 {opt.text}
               </button>

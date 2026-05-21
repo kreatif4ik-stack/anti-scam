@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EmergencyButton from '@/components/EmergencyButton'
 
 export const metadata: Metadata = {
   title: 'Экстренная помощь — Распознай мошенника',
@@ -10,14 +11,14 @@ const steps = [
   {
     emoji: '📞',
     title: 'Позвоните в банк',
-    text: 'Заблокируйте карту и оспорьте операцию. Номер на обороте карты.',
+    text: 'Заблокируйте карту и оспорьте операцию.',
     button: { label: 'Позвонить в банк', href: 'tel:900' },
   },
   {
     emoji: '👮',
-    title: 'Напишите заявление в полицию',
-    text: 'Ближайшее отделение или 112. Чем быстрее — тем выше шанс вернуть деньги.',
-    button: { label: 'Позвонить в 112', href: 'tel:112' },
+    title: 'Заявите в полицию о мошенничестве',
+    text: 'Ближайшее отделение или 102. Чем быстрее — тем выше шанс вернуть деньги.',
+    button: { label: 'Позвонить в 102', href: 'tel:102' },
   },
   {
     emoji: '🔑',
@@ -36,6 +37,13 @@ const steps = [
 export default function EmergencyPage() {
   return (
     <main className="min-h-screen px-4 py-12 max-w-2xl mx-auto">
+      <div className="mb-10">
+        <EmergencyButton
+          text="МЕНЯ ТОЛЬКО ЧТО ОБМАНУЛИ"
+          subtitle="Срочная помощь и план действий"
+        />
+      </div>
+
       <div className="text-center mb-10">
         <h1 className="text-3xl sm:text-4xl font-bold mb-2">🚨 Что делать прямо сейчас</h1>
       </div>

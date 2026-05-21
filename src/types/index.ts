@@ -3,6 +3,7 @@ export interface Scenario {
   pickerLabel: string
   emoji: string
   title: string
+  shortTitle?: string
   subtitle: string
   description: string
   source: string

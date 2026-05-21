@@ -10,6 +10,7 @@ const primary = [
   { icon: '🏦', label: 'Представился сотрудником банка или ЦБ', href: '/scenario/fsb-major' },
   { icon: '😢', label: 'Сказал, что близкий попал в беду', href: '/scenario/mom-accident' },
   { icon: '📱', label: 'Прислал ссылку или файл, просил установить приложение', href: '/scenario/gosuslugi-hack' },
+  { icon: '🗳️', label: 'Мне прислали ссылку на голосование в Telegram', href: '/scenario/tg-voting' },
 ]
 
 const secondary = [
