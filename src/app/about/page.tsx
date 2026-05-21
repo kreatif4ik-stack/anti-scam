@@ -43,17 +43,8 @@ export default function AboutPage() {
 
       <h2 className="text-xl font-semibold mb-3">Контакты</h2>
       <p className="text-[#f0f0f0] leading-relaxed mb-4">
-        Хотите предложить новую схему или нашли ошибку? Напишите на почту <a href="mailto:kreatif4ik@gmail.com" className="underline underline-offset-2 transition-colors" style={{ color: '#4ea4f5' }}>kreatif4ik@gmail.com</a> или создайте issue на GitHub.
+        Хотите предложить новую схему или нашли ошибку? Напишите на почту <a href="mailto:kreatif4ik@gmail.com" className="underline underline-offset-2 transition-colors" style={{ color: '#4ea4f5' }}>kreatif4ik@gmail.com</a> или создайте issue на <a href="https://github.com/kreatif4ik-stack/anti-scam" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 transition-colors" style={{ color: '#4ea4f5' }}>GitHub</a>.
       </p>
-      <a
-        href="https://github.com/kreatif4ik-stack/anti-scam"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="underline underline-offset-2 transition-colors"
-        style={{ color: '#4ea4f5' }}
-      >
-        GitHub
-      </a>
     </main>
   )
 }

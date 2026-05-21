@@ -24,13 +24,13 @@ const steps = [
     emoji: '🔑',
     title: 'Если назвали код от Госуслуг',
     text: 'Срочно восстановите доступ через МФЦ или банк-партнёр.',
-    button: { label: 'Восстановить доступ к Госуслугам', href: 'https://www.gosuslugi.ru/help/faq/login/1' },
+    button: { label: 'Восстановить доступ к Госуслугам', href: 'https://www.gosuslugi.ru/help/faq/login/7' },
   },
   {
     emoji: '📋',
     title: 'Проверьте кредитную историю',
     text: 'Мошенники могли оформить займы на ваше имя.',
-    button: { label: 'Проверить кредиты на Госуслугах', href: 'https://www.gosuslugi.ru/10602' },
+    button: { label: 'Проверить кредиты на Госуслугах', href: 'https://www.gosuslugi.ru/600311/1/form' },
   },
 ]
 

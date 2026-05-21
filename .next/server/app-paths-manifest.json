@@ -1,7 +1,5 @@
 {
-  "/picker/page": "app/picker/page.js",
   "/page": "app/page.js",
-  "/scenario/[id]/page": "app/scenario/[id]/page.js",
-  "/emergency/page": "app/emergency/page.js",
-  "/about/page": "app/about/page.js"
+  "/about/page": "app/about/page.js",
+  "/emergency/page": "app/emergency/page.js"
 }
